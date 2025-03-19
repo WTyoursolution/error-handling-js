@@ -32,3 +32,22 @@ try {
 }
 }
 fetchData();
+
+function greet(name) {
+    if (name === undefined) {
+      console.log("Hello, Guest!");
+    }
+  }
+  
+  greet();
+  
+// function greet(name) {
+//     if (!name) {
+//       console.log("Hello, Guest!");
+//     } else {
+//        console.log("Hello, " + name);
+//     }
+//   }
+  
+//   greet(prompt("What is your name?"));
+  
